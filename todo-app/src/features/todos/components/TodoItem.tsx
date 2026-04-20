@@ -1,6 +1,6 @@
 export const TodoItem = ({ title, completed }: { title: string; completed: boolean }) => {
     
-    console.log('Rendering TodoItem:', title, "v1");
+    console.log('Rendering TodoItem:', title, "v three");
 
     return (
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '8px', borderBottom: '1px solid #e5e7eb' }}>
