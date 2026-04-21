@@ -1,6 +1,6 @@
 export const TodoItem = ({ title, completed }: { title: string; completed: boolean }) => {
     
-    console.log('Rendering TodoItem:', title, completed);
+    console.log('Rendering TodoItem:', title, completed, new Date().toLocaleTimeString());
   
 return (
     <div
